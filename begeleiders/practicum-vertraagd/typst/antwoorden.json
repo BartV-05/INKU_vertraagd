@@ -1,0 +1,406 @@
+{
+  "aantal": 9000,
+  "per_vliegveld": 1500,
+  "drempel": 100,
+  "seed": 2008,
+  "kosten_per_minuut": 75,
+  "per_vliegveld_aantal": {
+    "JFK": 1500,
+    "ORD": 1500,
+    "DEN": 1500,
+    "PHX": 1500,
+    "LAX": 1500,
+    "ATL": 1500
+  },
+  "max_vertraging": {
+    "vlucht": "MQ4451",
+    "maatschappij": "American Eagle",
+    "datum": "14-06-2008",
+    "van": "JFK",
+    "naar": "CLE",
+    "minuten": 1051,
+    "uren": 17.5
+  },
+  "jfk_dec": {
+    "aantal": 165,
+    "gem": 65.2
+  },
+  "drie_uur": {
+    "aantal": 248,
+    "per_vliegveld": {
+      "JFK": 83,
+      "ORD": 60,
+      "LAX": 30,
+      "PHX": 29,
+      "ATL": 24,
+      "DEN": 22
+    }
+  },
+  "leeg": {
+    "aantal": 3216,
+    "max_aankomst": 14,
+    "min_aankomst": -51,
+    "min_aankomst_gevuld": 15,
+    "te_vroeg": 940
+  },
+  "analyse": [
+    {
+      "vv": "ATL",
+      "n": 1500,
+      "vertr": 40.0,
+      "taxi": 21.9,
+      "ernstig": 137,
+      "pct": 9,
+      "ernstig60": 305,
+      "pct60": 20
+    },
+    {
+      "vv": "ORD",
+      "n": 1500,
+      "vertr": 52.6,
+      "taxi": 22.3,
+      "ernstig": 220,
+      "pct": 15,
+      "ernstig60": 454,
+      "pct60": 30
+    },
+    {
+      "vv": "DEN",
+      "n": 1500,
+      "vertr": 36.9,
+      "taxi": 16.7,
+      "ernstig": 125,
+      "pct": 8,
+      "ernstig60": 282,
+      "pct60": 19
+    },
+    {
+      "vv": "LAX",
+      "n": 1500,
+      "vertr": 37.8,
+      "taxi": 15.5,
+      "ernstig": 117,
+      "pct": 8,
+      "ernstig60": 271,
+      "pct60": 18
+    },
+    {
+      "vv": "PHX",
+      "n": 1500,
+      "vertr": 34.7,
+      "taxi": 15.0,
+      "ernstig": 94,
+      "pct": 6,
+      "ernstig60": 218,
+      "pct60": 15
+    },
+    {
+      "vv": "JFK",
+      "n": 1500,
+      "vertr": 55.2,
+      "taxi": 41.1,
+      "ernstig": 224,
+      "pct": 15,
+      "ernstig60": 426,
+      "pct60": 28
+    }
+  ],
+  "totaal_ernstig": 917,
+  "per_uur": [
+    {
+      "uur": 0,
+      "n": 17,
+      "gem": 33.4
+    },
+    {
+      "uur": 1,
+      "n": 1,
+      "gem": 14.0
+    },
+    {
+      "uur": 5,
+      "n": 12,
+      "gem": 45.1
+    },
+    {
+      "uur": 6,
+      "n": 156,
+      "gem": 32.8
+    },
+    {
+      "uur": 7,
+      "n": 238,
+      "gem": 42.5
+    },
+    {
+      "uur": 8,
+      "n": 473,
+      "gem": 36.6
+    },
+    {
+      "uur": 9,
+      "n": 506,
+      "gem": 36.2
+    },
+    {
+      "uur": 10,
+      "n": 596,
+      "gem": 31.8
+    },
+    {
+      "uur": 11,
+      "n": 558,
+      "gem": 33.7
+    },
+    {
+      "uur": 12,
+      "n": 511,
+      "gem": 39.9
+    },
+    {
+      "uur": 13,
+      "n": 624,
+      "gem": 40.2
+    },
+    {
+      "uur": 14,
+      "n": 545,
+      "gem": 42.4
+    },
+    {
+      "uur": 15,
+      "n": 653,
+      "gem": 43.4
+    },
+    {
+      "uur": 16,
+      "n": 675,
+      "gem": 46.4
+    },
+    {
+      "uur": 17,
+      "n": 659,
+      "gem": 50.0
+    },
+    {
+      "uur": 18,
+      "n": 702,
+      "gem": 46.3
+    },
+    {
+      "uur": 19,
+      "n": 630,
+      "gem": 51.9
+    },
+    {
+      "uur": 20,
+      "n": 602,
+      "gem": 50.4
+    },
+    {
+      "uur": 21,
+      "n": 582,
+      "gem": 48.0
+    },
+    {
+      "uur": 22,
+      "n": 188,
+      "gem": 45.6
+    },
+    {
+      "uur": 23,
+      "n": 72,
+      "gem": 40.8
+    }
+  ],
+  "taxi_per_vliegveld": [
+    {
+      "vv": "JFK",
+      "gem": 41.1
+    },
+    {
+      "vv": "ORD",
+      "gem": 22.3
+    },
+    {
+      "vv": "ATL",
+      "gem": 21.9
+    },
+    {
+      "vv": "DEN",
+      "gem": 16.7
+    },
+    {
+      "vv": "LAX",
+      "gem": 15.5
+    },
+    {
+      "vv": "PHX",
+      "gem": 15.0
+    }
+  ],
+  "kpi": [
+    {
+      "vv": "PHX",
+      "vertr": 34.7,
+      "taxi": 15.0,
+      "uur_plus": 14.5,
+      "oorzaak_pct": {
+        "maatschappij": 41.8,
+        "weer": 2.9,
+        "luchtverkeer": 18.6,
+        "beveiliging": 0.2,
+        "laat_vliegtuig": 36.4
+      },
+      "oorzaak_min": {
+        "maatschappij": 18123,
+        "weer": 1241,
+        "luchtverkeer": 8078,
+        "beveiliging": 96,
+        "laat_vliegtuig": 15782
+      }
+    },
+    {
+      "vv": "DEN",
+      "vertr": 36.9,
+      "taxi": 16.7,
+      "uur_plus": 18.8,
+      "oorzaak_pct": {
+        "maatschappij": 30.8,
+        "weer": 3.0,
+        "luchtverkeer": 20.7,
+        "beveiliging": 0.1,
+        "laat_vliegtuig": 45.4
+      },
+      "oorzaak_min": {
+        "maatschappij": 15549,
+        "weer": 1523,
+        "luchtverkeer": 10456,
+        "beveiliging": 56,
+        "laat_vliegtuig": 22971
+      }
+    },
+    {
+      "vv": "LAX",
+      "vertr": 37.8,
+      "taxi": 15.5,
+      "uur_plus": 18.1,
+      "oorzaak_pct": {
+        "maatschappij": 38.4,
+        "weer": 1.1,
+        "luchtverkeer": 20.4,
+        "beveiliging": 0.1,
+        "laat_vliegtuig": 40.1
+      },
+      "oorzaak_min": {
+        "maatschappij": 18847,
+        "weer": 525,
+        "luchtverkeer": 10013,
+        "beveiliging": 68,
+        "laat_vliegtuig": 19685
+      }
+    },
+    {
+      "vv": "ATL",
+      "vertr": 40.0,
+      "taxi": 21.9,
+      "uur_plus": 20.3,
+      "oorzaak_pct": {
+        "maatschappij": 39.9,
+        "weer": 7.7,
+        "luchtverkeer": 21.7,
+        "beveiliging": 0.1,
+        "laat_vliegtuig": 30.7
+      },
+      "oorzaak_min": {
+        "maatschappij": 22867,
+        "weer": 4422,
+        "luchtverkeer": 12430,
+        "beveiliging": 31,
+        "laat_vliegtuig": 17574
+      }
+    },
+    {
+      "vv": "ORD",
+      "vertr": 52.6,
+      "taxi": 22.3,
+      "uur_plus": 30.3,
+      "oorzaak_pct": {
+        "maatschappij": 27.5,
+        "weer": 7.9,
+        "luchtverkeer": 18.3,
+        "beveiliging": 0.0,
+        "laat_vliegtuig": 46.3
+      },
+      "oorzaak_min": {
+        "maatschappij": 21748,
+        "weer": 6251,
+        "luchtverkeer": 14448,
+        "beveiliging": 7,
+        "laat_vliegtuig": 36628
+      }
+    },
+    {
+      "vv": "JFK",
+      "vertr": 55.2,
+      "taxi": 41.1,
+      "uur_plus": 28.4,
+      "oorzaak_pct": {
+        "maatschappij": 31.3,
+        "weer": 7.6,
+        "luchtverkeer": 30.7,
+        "beveiliging": 0.2,
+        "laat_vliegtuig": 30.3
+      },
+      "oorzaak_min": {
+        "maatschappij": 27460,
+        "weer": 6678,
+        "luchtverkeer": 26939,
+        "beveiliging": 152,
+        "laat_vliegtuig": 26576
+      }
+    }
+  ],
+  "kosten": [
+    {
+      "mij": "United Airlines",
+      "n": 1298,
+      "som": 61062,
+      "gem": 47.0,
+      "kosten": 4579650
+    },
+    {
+      "mij": "American Airlines",
+      "n": 818,
+      "som": 41228,
+      "gem": 50.4,
+      "kosten": 3092100
+    },
+    {
+      "mij": "Southwest Airlines",
+      "n": 1235,
+      "som": 39593,
+      "gem": 32.1,
+      "kosten": 2969475
+    },
+    {
+      "mij": "JetBlue Airways",
+      "n": 691,
+      "som": 38543,
+      "gem": 55.8,
+      "kosten": 2890725
+    },
+    {
+      "mij": "Delta Air Lines",
+      "n": 903,
+      "som": 33694,
+      "gem": 37.3,
+      "kosten": 2527050
+    }
+  ],
+  "hoogste_gem_mij": {
+    "mij": "JetBlue Airways",
+    "gem": 55.8,
+    "n": 691
+  }
+}
